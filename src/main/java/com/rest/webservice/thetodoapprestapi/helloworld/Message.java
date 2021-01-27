@@ -1,4 +1,4 @@
-package com.rest.webservice.thetodoapprestapi;
+package com.rest.webservice.thetodoapprestapi.helloworld;
 
 public class Message {
     private String message;

@@ -1,4 +1,4 @@
-package com.rest.webservice.thetodoapprestapi;
+package com.rest.webservice.thetodoapprestapi.helloworld;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,8 +11,7 @@ public class HelloWorldController {
 
     @GetMapping(path = "/hello-world")
     public Message helloWorld() {
-//        return new Message("hello world");
-        throw new RuntimeException("Some error has Happened! Contact Support at ***_***");
+        return new Message("hello world");
     }
 
     @GetMapping(path = "/hello-world/path-variable/{name}")
