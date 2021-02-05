@@ -1,4 +1,4 @@
-package com.rest.webservice.thetodoapprestapi.basic.auth;
+package com.rest.basic.auth;
 
 public class Authentication {
     private String message;

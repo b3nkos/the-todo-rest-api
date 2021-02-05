@@ -16,10 +16,10 @@ public class TodoHardcodedService {
 
     public TodoHardcodedService() {
         this.todoList = List.of(
-                new Todo(123, "b3nkos", "Buy a standing desk", Date.from(Instant.now()), false),
-                new Todo(1239766, "b3nkos", "Learn Angular", Date.from(Instant.now()), false),
-                new Todo(96322, "b3nkos", "Learn Spring Boot", Date.from(Instant.now()), false),
-                new Todo(9725, "b3nkos", "Learn testing", Date.from(Instant.now()), false)
+                new Todo(123L, "b3nkos", "Buy a standing desk", Date.from(Instant.now()), false),
+                new Todo(1239766L, "b3nkos", "Learn Angular", Date.from(Instant.now()), false),
+                new Todo(96322L, "b3nkos", "Learn Spring Boot", Date.from(Instant.now()), false),
+                new Todo(9725L, "b3nkos", "Learn testing", Date.from(Instant.now()), false)
         );
     }
 
